@@ -7,6 +7,10 @@ class App < Sinatra::Base
 
   post '/newteam' do
      @name = params[:name]
+     @coach
+     @pg
+     @sg
+     @File.join(File.dirname(__FILE__), *%w[rel path here])
 
     erb :team
   end
