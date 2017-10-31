@@ -11,5 +11,7 @@ class App < Sinatra::Base
   
   post '/team' do
     params.to_s
+
+    erb :team
   end
 end
